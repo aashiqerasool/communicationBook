@@ -10,6 +10,12 @@ Router.route('/', {
   where: 'client'
 });
 
+Router.route('/signup', {
+  name: 'Signup',
+//   controller: 'HomeController',
+  where: 'client'
+});
+
 Router.route('/insert_issue', {
   name: 'insertIssue',
   controller: 'IssuesController',

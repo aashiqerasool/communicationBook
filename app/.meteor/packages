@@ -13,7 +13,6 @@ momentjs:moment
 accounts-password
 ian:accounts-ui-bootstrap-3
 natestrauser:font-awesome
-materialize:materialize
 standard-minifiers
 meteor-base
 mobile-experience
@@ -28,3 +27,5 @@ random
 ejson
 spacebars
 check
+materialize:materialize@=0.97.0
+useraccounts:materialize
